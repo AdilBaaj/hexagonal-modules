@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1714042217737,
+      "tag": "0000_nebulous_guardsmen",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1714042232838,
+      "tag": "0001_square_electro",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1715527702115,
+      "tag": "0002_lumpy_zemo",
+      "breakpoints": true
+    }
+  ]
+}

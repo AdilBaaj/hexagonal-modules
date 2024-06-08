@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/common.sh"
+
+MAIN_BRANCH="main"
+
+if [ "$(git rev-parse --abbrev-ref HEAD)" = "$MAIN_BRANCH" ]; then
+    echo "Error: You cannot push directly to the $MAIN_BRANCH branch."
+    exit 1
+fi

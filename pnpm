@@ -1,0 +1,4 @@
+#!/bin/sh
+echo \> corepack pnpm $@
+if ! which corepack 1>/dev/null 2>&1; then echo \"corepack\" not found. Make sure you are using Node.js \>= 16.9; exit 1; fi;
+corepack pnpm $@
